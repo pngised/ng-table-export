@@ -45,17 +45,17 @@ angular.module('ngTableExport', [])
               if (tds.length === 0) {
                 tds = tr.find('td');
               }
-              if (i !== 1) {
+              // if (i !== 1) {
                 angular.forEach(tds, function(td) {
                   // respect colspan in row data
                   rowData += stringify(angular.element(td).text()) + Array.apply(null, Array(td.colSpan)).map(function () { return delimiter; }).join('');
                 });
                 rowData = rowData.slice(0, rowData.length - 1); //remove last semicolon
-              }
+              // }
               data += rowData + '\n';
             });
             // add delimiter hint for excel so it opens without having to import
-            data = 'sep=' + delimiter + '\n' + data;
+            // data = 'sep=' + delimiter + '\n' + data;
           }
 
           /**
