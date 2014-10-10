@@ -16,8 +16,8 @@ Previous fork of [esvit/ng-table-export](https://github.com/esvit/ng-table-expor
 
 **UPDATE:** 
 
-I removed the delimiter hint for excel at row 61 
-I then removed the IF statement at row 50 causing not to export the first row of data. 
+I removed the delimiter hint for excel at row 58 
+I then removed the IF statement at row 48 causing not to export the first row of data. 
 
 ---
 
