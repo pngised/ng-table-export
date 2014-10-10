@@ -17,10 +17,13 @@ bower install ng-table-export
 
 Previous fork of [esvit/ng-table-export](https://github.com/esvit/ng-table-export)
 
----
+--- 
+
 **UPDATE:** 
+
 I removed the delimiter hint for excel at row 61 
-I then removed the IF statement at row 50 causing not to export the first row of data.
+I then removed the IF statement at row 50 causing not to export the first row of data. 
+
 ---
 
 I made some considerable changes -- namely, I needed to [fix it to work with ng-table's pager](https://github.com/esvit/ng-table-export/issues/8).  If the pager is enabled, the export plugin would only export a page of data.  My fix is mostly a re-write, and it isn't perfect, but it seems to work for me.
