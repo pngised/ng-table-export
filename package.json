@@ -1,11 +1,11 @@
 {
-  "name": "ng-table-export",
-  "version": "0.1.0",
-  "author": "Vitalii Savchuk <esvit666@gmail.com>",
+  "name": "ng-table-export-mod",
+  "version": "0.0.1",
+  "author": "Federico Pizzutto via Davis Ford via Vitalii Savchuk <esvit666@gmail.com>",
   "license": "BSD",
   "repository": {
     "type": "git",
-    "url": "git://github.com/esvit/ng-table-export.git"
+    "url": "git://github.com/pngised/ng-table-export.git"
   },
   "devDependencies": {
     "grunt-contrib-copy": "~0.4.1",

@@ -1,11 +1,15 @@
 {
-  "name": "ng-table-export",
-  "version": "0.1.0",
+  "name": "ng-table-export-mod",
+  "version": "0.0.1",
   "main": [
     "ng-table-export.js"
   ],
   "ignore": [
-    "src"
+    "src",
+    ".bowerrc",
+    ".gitignore",
+    ".Gruntfile.coffee",
+    "package.json"
   ],
   "dependencies": {
     "angular": ">=1.2.0-rc.2"
